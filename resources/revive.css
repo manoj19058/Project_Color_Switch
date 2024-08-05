@@ -1,0 +1,31 @@
+#revive{
+    -fx-background-color : blue;
+    -fx-text-fill:#FFFFFF;
+}
+#revive:hover{
+    -fx-scale-y:1.1;
+    -fx-scale-x:1.1;
+    -fx-background-size: auto;
+    -fx-background-attachment: fixed;
+    -fx-background-position: center;
+}
+#revive:pressed{
+     -fx-background-color:#FFFF00;
+     -fx-text-fill:#000000;
+}
+#cancel{
+    -fx-background-color:#FF0000;
+    -fx-text-fill:#FFFFFF;
+}
+
+#cancel:hover{
+    -fx-scale-y:1.1;
+    -fx-scale-x:1.1;
+    -fx-background-size: auto;
+    -fx-background-attachment: fixed;
+    -fx-background-position: center;
+}
+#cancel:pressed{
+    -fx-background-color:#FFFF00;
+    -fx-text-fill:#000000;
+}

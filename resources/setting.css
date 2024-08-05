@@ -1,0 +1,126 @@
+.root{
+    -fx-background-image:url('settingBackground.png');
+    -fx-background-size:auto;
+    -fx-background-repeat: no-repeat;
+    -fx-background-attachment: fixed;
+    -fx-background-position: center;
+    -fx-background-size: 105% 105%;
+}
+#text{
+    -fx-text-fill: white;
+}
+#back{
+    -fx-background-color:#0000FF;
+    -fx-text-fill:#FFFFFF;
+}
+#back:hover{
+    -fx-scale-y:1.1;
+    -fx-scale-x:1.1;
+    -fx-background-size: auto;
+    -fx-background-attachment: fixed;
+    -fx-background-position: center;
+}
+#back:pressed{
+     -fx-background-color:#FFFF00;
+     -fx-text-fill:#000000;
+}
+#eraseHighScore{
+    -fx-background-color:#FF0000;
+    -fx-text-fill:#FFFFFF;
+}
+
+#eraseHighScore:hover{
+    -fx-scale-y:1.1;
+    -fx-scale-x:1.1;
+    -fx-background-size: auto;
+    -fx-background-attachment: fixed;
+    -fx-background-position: center;
+}
+#eraseHighScore:pressed{
+    -fx-background-color:#FFFF00;
+    -fx-text-fill:#000000;
+}
+#on > .radio{
+    -fx-background-color: green;
+    -fx-background-insets: -5;
+    -fx-background-radius: 10px;
+    -fx-padding: 0.2em; /* 4 8 4 8 */
+
+}
+#off:selected > .radio > .dot
+{
+    -fx-background-color: white;
+    -fx-background-image : url('tickMark.png');
+}
+#off > .radio{
+    -fx-background-color: green;
+    -fx-background-insets: -5;
+    -fx-background-radius: 10px;
+    -fx-padding: 0.2em; /* 4 8 4 8 */
+}
+#on:selected > .radio > .dot
+{
+    -fx-image: url('infinity.png');
+    -fx-background-color: white;
+}
+#on .radio:selected{
+    -fx-background-image: url('infinity.png');
+    -fx-background-color: red;
+}
+#red > .radio{
+    -fx-background-color: red;
+    -fx-background-insets: -5;
+    -fx-background-radius: 10px;
+    -fx-padding: 0.2em; /* 4 8 4 8 */
+}
+#red .radio:selected{
+    -fx-background-image: url('infinity.png');
+    -fx-background-color: red;
+}
+#red:selected > .radio > .dot{
+    -fx-background-image: url('infinity.png');
+    -fx-background-color: white;
+}
+
+#blue > .radio{
+    -fx-background-color: blue;
+    -fx-background-insets: -5;
+    -fx-background-radius: 10px;
+    -fx-padding: 0.2em; /* 4 8 4 8 */
+}
+#blue .radio:selected{
+    -fx-background-image: url('infinity.png');
+    -fx-background-color: red;
+}
+#blue:selected > .radio > .dot{
+    -fx-background-image: url('infinity.png');
+    -fx-background-color: white;
+}
+#yellow > .radio{
+    -fx-background-color: yellow;
+    -fx-background-insets: -5;
+    -fx-background-radius: 10px;
+    -fx-padding: 0.2em; /* 4 8 4 8 */
+}
+#yellow .radio:selected{
+    -fx-background-image: url('infinity.png');
+    -fx-background-color: red;
+}
+#yellow:selected > .radio > .dot{
+    -fx-background-image: url('infinity.png');
+    -fx-background-color: white;
+}
+#purple > .radio{
+    -fx-background-color: purple;
+    -fx-background-insets: -5;
+    -fx-background-radius: 10px;
+    -fx-padding: 0.2em; /* 4 8 4 8 */
+}
+#purple .radio:selected{
+    -fx-background-image: url('infinity.png');
+    -fx-background-color: red;
+}
+#purple:selected > .radio > .dot{
+    -fx-background-image: url('infinity.png');
+    -fx-background-color: white;
+}

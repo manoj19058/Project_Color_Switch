@@ -1,0 +1,93 @@
+.root{
+    -fx-background-image:url('switch_Color.png');
+    -fx-background-size:auto;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+}
+
+#play{
+    -fx-background-color:#ffffff;
+    -fx-background-image : url('infinity.png');
+    -fx-background-size:auto;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+}
+#play:hover{
+
+    -fx-scale-y:1.1;
+    -fx-scale-x:1.1;
+
+}
+#play:pressed{
+    -fx-background-color:#FFFF00;
+    -fx-background-size:auto;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+}
+#setting{
+    -fx-background-image : url('Settings.png');
+    -fx-background-color :  #2196f3;
+    -fx-background-size: auto;
+    -fx-background-attachment: fixed;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 75% 75%;
+}
+#setting:hover{
+    -fx-background-image : url('Settings.png');
+    -fx-scale-y:1.1;
+    -fx-scale-x:1.1;
+    -fx-background-size: auto;
+    -fx-background-attachment: fixed;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 75% 75%;
+}
+#setting:pressed{
+    -fx-background-color:#FFFF00;
+}
+
+#load{
+    -fx-background-image : url('Load.png');
+    -fx-background-color :  #2196f3;
+    -fx-background-size: auto;
+    -fx-background-attachment: fixed;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 75% 75%;
+}
+#load:hover{
+    -fx-background-image : url('Load.png');
+    -fx-scale-y:1.1;
+    -fx-scale-x:1.1;
+    -fx-background-size: auto;
+    -fx-background-attachment: fixed;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 75% 75%;
+}
+#load:pressed{
+    -fx-background-color:#FFFF00;
+}
+#exit{
+    -fx-background-image : url('exit.png');
+    -fx-background-color :  #2196f3;
+    -fx-background-size: auto;
+    -fx-background-attachment: fixed;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 75% 75%;
+}
+#exit:hover{
+    -fx-background-image : url('exit.png');
+    -fx-scale-y:1.1;
+    -fx-scale-x:1.1;
+    -fx-background-size: auto;
+    -fx-background-attachment: fixed;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 75% 75%;
+}
+#exit:pressed{
+    -fx-background-color:#FFFF00;
+}

@@ -1,0 +1,87 @@
+#LoadScene{
+    -fx-background-color :  #2196f3;
+}
+#back{
+     -fx-background-color:#0000FF;
+     -fx-text-fill:#FFFFFF;
+ }
+ #back:hover{
+     -fx-scale-y:1.1;
+     -fx-scale-x:1.1;
+     -fx-background-size: auto;
+     -fx-background-attachment: fixed;
+     -fx-background-position: center;
+ }
+ #back:pressed{
+      -fx-background-color:#FFFF00;
+      -fx-text-fill:#000000;
+ }
+#slot1{
+     -fx-background-image : url('slot1.png');
+     -fx-background-attachment: fixed;
+     -fx-background-position: center;
+     -fx-background-repeat: no-repeat;
+     -fx-background-size: auto;
+     -fx-background-size: 100% 100%;
+}
+#slot1:hover{
+    -fx-scale-y:1.1;
+     -fx-scale-x:1.1;
+     -fx-background-size: auto;
+     -fx-background-attachment: fixed;
+     -fx-background-position: center;
+     -fx-background-size: 100% 100%;
+}
+#slot1:pressed{
+    -fx-background-image : url('switch_Color.png');
+     -fx-background-size: auto;
+     -fx-background-attachment: fixed;
+     -fx-background-position: center;
+     -fx-background-size: 100% 100%;
+}
+#slot2{
+     -fx-background-image : url('slot2.png');
+     -fx-background-attachment: fixed;
+     -fx-background-position: center;
+     -fx-background-repeat: no-repeat;
+     -fx-background-size: auto;
+     -fx-background-size: 100% 100%;
+}
+#slot2:hover{
+    -fx-scale-y:1.1;
+     -fx-scale-x:1.1;
+     -fx-background-size: auto;
+     -fx-background-attachment: fixed;
+     -fx-background-position: center;
+     -fx-background-size: 100% 100%;
+}
+#slot2:pressed{
+    -fx-background-image : url('switch_Color.png');
+     -fx-background-size: auto;
+     -fx-background-attachment: fixed;
+     -fx-background-position: center;
+     -fx-background-size: 100% 100%;
+}
+#slot3{
+     -fx-background-image : url('slot3.jpg');
+     -fx-background-attachment: fixed;
+     -fx-background-position: center;
+     -fx-background-repeat: no-repeat;
+     -fx-background-size: auto;
+     -fx-background-size: 100% 100%;
+}
+#slot3:hover{
+    -fx-scale-y:1.1;
+     -fx-scale-x:1.1;
+     -fx-background-size: auto;
+     -fx-background-attachment: fixed;
+     -fx-background-position: center;
+     -fx-background-size: 100% 100%;
+}
+#slot3:pressed{
+    -fx-background-image : url('switch_Color.png');
+     -fx-background-size: auto;
+     -fx-background-attachment: fixed;
+     -fx-background-position: center;
+     -fx-background-size: 100% 100%;
+}
